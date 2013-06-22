@@ -1,0 +1,17 @@
+{
+  "name": "Aspire-Sounds",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "mongoose": "*",
+    "crypto": "*",
+    "async": "*",
+    "validator": "*",
+    "connect-mongo": "*"
+  }
+}
