@@ -1,9 +1,0 @@
-{"ts":1373136033621,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":true,"ts":1373136043210,"patch":[[{"diffs":[[1,"// Artist prototype\nvar artistSchema = schema({\n    details: { type: ObjectId, ref: 'UserDetail' },\n    verified: { type: Boolean, default: false },\n});"]],"start1":0,"start2":0,"length1":0,"length2":152}]],"length":152,"saved":false}
-{"ts":1373136045452,"patch":[[{"diffs":[[1,"\n\n"],[0,"// Artis"]],"start1":0,"start2":0,"length1":8,"length2":10}]],"length":154,"saved":false}
-{"ts":1373136065175,"patch":[[{"diffs":[[0,"e },\n});"],[1,"\n\nvar Artist = exports.Artist = mongoose.model('Artist', artistSchema);"]],"start1":146,"start2":146,"length1":8,"length2":79}]],"length":225,"saved":false}
-{"ts":1373136071549,"patch":[[{"diffs":[[1,"var mongoose = require('mongoose')\n    , schema = mongoose.Schema\n    , ObjectId = schema.ObjectId\n    , mongooseAuth = require('mongoose-auth');"],[0,"\n\n// Art"]],"start1":0,"start2":0,"length1":8,"length2":153}]],"length":370,"saved":false}
-{"ts":1373137713214,"patch":[[{"diffs":[[0,"f: '"],[1,"Base"],[0,"User"],[-1,"Detail"],[0,"' },"]],"start1":228,"start2":228,"length1":18,"length2":16}]],"length":368,"saved":false}
-{"contributors":[],"silentsave":true,"ts":1373138372623,"patch":[[{"diffs":[[0,"e-auth')"],[1,"\n    , models = require(''./index)"],[0,";\n\n// Ar"]],"start1":136,"start2":136,"length1":16,"length2":50}]],"length":402,"saved":false}
-{"ts":1373138373730,"patch":[[{"diffs":[[0,"equire('"],[-1,"'"],[0,"./index)"]],"start1":161,"start2":161,"length1":17,"length2":16}]],"length":401,"saved":false}
-{"ts":1373138375546,"patch":[[{"diffs":[[0,"'./index"],[1,"'"],[0,");\n\n// A"]],"start1":168,"start2":168,"length1":16,"length2":17}]],"length":402,"saved":false}
