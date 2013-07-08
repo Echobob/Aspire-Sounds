@@ -12,6 +12,7 @@
     "crypto": "*",
     "async": "*",
     "validator": "*",
-    "connect-mongo": "*"
+    "connect-mongo": "*",
+    "mongoose-auth": "*"
   }
 }
