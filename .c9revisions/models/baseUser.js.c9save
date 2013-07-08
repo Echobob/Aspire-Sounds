@@ -1,0 +1,20 @@
+{"ts":1373136258438,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1373138388366,"patch":[[{"diffs":[[1,"var mongoose = require('mongoose')\n    , schema = mongoose.Schema\n    , ObjectId = schema.ObjectId\n    , mongooseAuth = require('mongoose-auth');\n\nvar baseUserSchema = schema({\n    name: String,\n    surname: String,\n    username: String,\n    email: String, // used to login?\n    password: { type: String, required: true },\n});\nbaseUserSchema.plugin(mongooseAuth, {\n    facebook: true // expand on this\n});\n\nvar BaseUser = exports.BaseUser = new mongoose.model('BaseUser', baseUserSchema); "]],"start1":0,"start2":0,"length1":0,"length2":489}]],"length":489,"saved":false}
+{"ts":1373138391325,"patch":[[{"diffs":[[0,"Schema);"],[-1," "]],"start1":480,"start2":480,"length1":9,"length2":8}]],"length":488,"saved":false}
+{"ts":1373140501408,"patch":[[{"diffs":[[0,");\n\nvar "],[-1,"baseU"],[1,"u"],[0,"serSchem"]],"start1":143,"start2":143,"length1":21,"length2":17}]],"length":484,"saved":false}
+{"ts":1373140504074,"patch":[[{"diffs":[[0," },\n});\n"],[-1,"baseU"],[0,"serSchem"]],"start1":315,"start2":315,"length1":21,"length2":16}]],"length":479,"saved":false}
+{"ts":1373140504974,"patch":[[{"diffs":[[0," },\n});\n"],[1,"y"],[0,"serSchem"]],"start1":315,"start2":315,"length1":16,"length2":17}]],"length":480,"saved":false}
+{"ts":1373140506535,"patch":[[{"diffs":[[0," },\n});\n"],[-1,"y"],[1,"u"],[0,"serSchem"]],"start1":315,"start2":315,"length1":17,"length2":17}]],"length":480,"saved":false}
+{"ts":1373140509456,"patch":[[{"diffs":[[0,");\n\nvar "],[-1,"Base"],[0,"User = e"]],"start1":395,"start2":395,"length1":20,"length2":16}]],"length":476,"saved":false}
+{"ts":1373140511762,"patch":[[{"diffs":[[0,"exports."],[-1,"Base"],[0,"User = n"]],"start1":410,"start2":410,"length1":20,"length2":16}]],"length":472,"saved":false}
+{"ts":1373140514386,"patch":[[{"diffs":[[0,"el('"],[-1,"Base"],[0,"User"]],"start1":441,"start2":441,"length1":12,"length2":8}]],"length":468,"saved":false}
+{"ts":1373140516380,"patch":[[{"diffs":[[0,"r', "],[-1,"baseU"],[1,"u"],[0,"serS"]],"start1":448,"start2":448,"length1":13,"length2":9}]],"length":464,"saved":false}
+{"ts":1373140545638,"patch":[[{"diffs":[[0,"true },\n"],[1,"    // a\n"],[0,"});\nuser"]],"start1":311,"start2":311,"length1":16,"length2":25}]],"length":473,"saved":false}
+{"ts":1373140547138,"patch":[[{"diffs":[[0,"    // a"],[1,"rtist\n    "],[0,"\n});\nuse"]],"start1":319,"start2":319,"length1":16,"length2":26}]],"length":483,"saved":false}
+{"ts":1373140550510,"patch":[[{"diffs":[[0,"ist\n    "],[1,"artist: {\n        \n    }"],[0,"\n});\nuse"]],"start1":329,"start2":329,"length1":16,"length2":40}]],"length":507,"saved":false}
+{"ts":1373140552726,"patch":[[{"diffs":[[0,"        "],[1,"registered:"],[0,"\n    }\n}"]],"start1":347,"start2":347,"length1":16,"length2":27}]],"length":518,"saved":false}
+{"ts":1373140558423,"patch":[[{"diffs":[[0,"istered:"],[1," { type: Bool"],[0,"\n    }\n}"]],"start1":358,"start2":358,"length1":16,"length2":29}]],"length":531,"saved":false}
+{"ts":1373140559954,"patch":[[{"diffs":[[0,"pe: Bool"],[1,"ean, def"],[0,"\n    }\n}"]],"start1":371,"start2":371,"length1":16,"length2":24}]],"length":539,"saved":false}
+{"ts":1373140562555,"patch":[[{"diffs":[[0,"ean, def"],[1,"ault: false"],[0,"\n    }\n}"]],"start1":379,"start2":379,"length1":16,"length2":27}]],"length":550,"saved":false}
+{"ts":1373140563877,"patch":[[{"diffs":[[0,"t: false"],[1," }"],[0,"\n    }\n}"]],"start1":390,"start2":390,"length1":16,"length2":18}]],"length":552,"saved":false}
+{"ts":1373140565570,"patch":[[{"diffs":[[0," false }"],[1,",\n        "],[0,"\n    }\n}"]],"start1":392,"start2":392,"length1":16,"length2":26}]],"length":562,"saved":false}

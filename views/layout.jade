@@ -1,0 +1,25 @@
+!!!5
+html
+    head
+        title= title
+            |  - Aspire Sounds
+        block css
+            link(rel="stylesheet", href="/css/bootstrap.css")
+            link(rel="stylesheet", href="/css/site.css")
+    body
+        .container
+            .page-header
+                h1 Test site
+            .main-content
+                block content
+                    p Default content
+            .sidebar
+                block sidebar
+            footer.text-center.muted
+                p Aspire Sounds &trade; of Frequency Dynamiks
+                    br
+                    | Site designed and built by Castaway Development Team
+        block js
+            script(src="/js/jquery.min.js")
+            script(src="/js/bootstrap.js")
+            script(src="/js/site.js")

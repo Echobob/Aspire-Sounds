@@ -1,0 +1,42 @@
+{"ts":1373136138008,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1373136141752,"patch":[[{"diffs":[[1,"exports."]],"start1":0,"start2":0,"length1":0,"length2":8}]],"length":8,"saved":false}
+{"ts":1373136145971,"patch":[[{"diffs":[[0,"exports."],[1,"Artist ="]],"start1":0,"start2":0,"length1":8,"length2":16}]],"length":16,"saved":false}
+{"ts":1373136147796,"patch":[[{"diffs":[[0,"Artist ="],[1," require('')"]],"start1":8,"start2":8,"length1":8,"length2":20}]],"length":28,"saved":false}
+{"ts":1373136149036,"patch":[[{"diffs":[[0,"equire('"],[1,"./"],[0,"')"]],"start1":18,"start2":18,"length1":10,"length2":12}]],"length":30,"saved":false}
+{"ts":1373136150650,"patch":[[{"diffs":[[0,"uire('./"],[1,"artist"],[0,"')"]],"start1":20,"start2":20,"length1":10,"length2":16}]],"length":36,"saved":false}
+{"ts":1373136153663,"patch":[[{"diffs":[[0,"artist')"],[1,";"]],"start1":28,"start2":28,"length1":8,"length2":9}]],"length":37,"saved":false}
+{"ts":1373136156003,"patch":[[{"diffs":[[0,"st')"],[-1,";"],[1,"\n"]],"start1":32,"start2":32,"length1":5,"length2":5}]],"length":37,"saved":false}
+{"ts":1373136170306,"patch":[[{"diffs":[[0,"rtist')\n"],[1,"ex"]],"start1":29,"start2":29,"length1":8,"length2":10}]],"length":39,"saved":false}
+{"ts":1373136171815,"patch":[[{"diffs":[[0,"ist')\nex"],[1,"ports."]],"start1":31,"start2":31,"length1":8,"length2":14}]],"length":45,"saved":false}
+{"ts":1373136183656,"patch":[[{"diffs":[[0,"rtist')\nexports."],[1,"Client = require('./client')"]],"start1":29,"start2":29,"length1":16,"length2":44}]],"length":73,"saved":false}
+{"ts":1373136184536,"patch":[[{"diffs":[[0,"artist')"],[1,";"],[0,"\nexports"]],"start1":28,"start2":28,"length1":16,"length2":17},{"diffs":[[0,"client')"],[1,";"]],"start1":66,"start2":66,"length1":8,"length2":9}]],"length":75,"saved":false}
+{"ts":1373136186618,"patch":[[{"diffs":[[0,"'./client');"],[1,"\n"]],"start1":63,"start2":63,"length1":12,"length2":13}]],"length":76,"saved":false}
+{"ts":1373136192188,"patch":[[{"diffs":[[1,"\n\n"],[0,"exports.Artist ="]],"start1":0,"start2":0,"length1":16,"length2":18}]],"length":78,"saved":false}
+{"ts":1373136194677,"patch":[[{"diffs":[[1,"// Require"],[0,"\n\nexport"]],"start1":0,"start2":0,"length1":8,"length2":18}]],"length":88,"saved":false}
+{"ts":1373136198874,"patch":[[{"diffs":[[0,"// "],[-1,"R"],[1,"r"],[0,"equire"],[1,"(')"],[0,"\n\nex"]],"start1":0,"start2":0,"length1":14,"length2":17}]],"length":91,"saved":false}
+{"ts":1373136199608,"patch":[[{"diffs":[[0,"equire('"],[1,"./"],[0,")\n\nexpor"]],"start1":4,"start2":4,"length1":16,"length2":18}]],"length":93,"saved":false}
+{"ts":1373136202155,"patch":[[{"diffs":[[0,"quire('."],[-1,"/"],[0,")\n\nexpor"]],"start1":5,"start2":5,"length1":17,"length2":16}]],"length":92,"saved":false}
+{"ts":1373136203519,"patch":[[{"diffs":[[0,"equire('"],[-1,"."],[0,")\n\nexpor"]],"start1":4,"start2":4,"length1":17,"length2":16}]],"length":91,"saved":false}
+{"ts":1373136205442,"patch":[[{"diffs":[[0,"equire('"],[1,"./models"],[0,")\n\nexpor"]],"start1":4,"start2":4,"length1":16,"length2":24}]],"length":99,"saved":false}
+{"ts":1373136206931,"patch":[[{"diffs":[[0,"models)\n"],[1," "],[0,"\nexports"]],"start1":14,"start2":14,"length1":16,"length2":17}]],"length":100,"saved":false}
+{"ts":1373136207886,"patch":[[{"diffs":[[0,"models)\n"],[-1," "],[0,"\nexports"]],"start1":14,"start2":14,"length1":17,"length2":16}]],"length":99,"saved":false}
+{"ts":1373136210173,"patch":[[{"diffs":[[0,"/models)"],[1," as folder "],[0,"\n\nexport"]],"start1":13,"start2":13,"length1":16,"length2":27}]],"length":110,"saved":false}
+{"ts":1373136212857,"patch":[[{"diffs":[[0," folder "],[1,"calls index.js"],[0,"\n\nexport"]],"start1":24,"start2":24,"length1":16,"length2":30}]],"length":124,"saved":false}
+{"ts":1373136214356,"patch":[[{"diffs":[[0,"index.js"],[1," and "],[0,"\n\nexport"]],"start1":38,"start2":38,"length1":16,"length2":21}]],"length":129,"saved":false}
+{"ts":1373136218354,"patch":[[{"diffs":[[0,".js and "],[1,"exports from here "],[0,"\n\nexport"]],"start1":43,"start2":43,"length1":16,"length2":34}]],"length":147,"saved":false}
+{"ts":1373136222744,"patch":[[{"diffs":[[0,"x.js"],[-1," and exports from here "],[0,"\n\nex"]],"start1":42,"start2":42,"length1":31,"length2":8}]],"length":124,"saved":false}
+{"ts":1373137655058,"patch":[[{"diffs":[[0,"./client');\n"],[1,"exports.Base\n"]],"start1":112,"start2":112,"length1":12,"length2":25}]],"length":137,"saved":false}
+{"ts":1373137656555,"patch":[[{"diffs":[[0,"rts.Base"],[1,"User"],[0,"\n"]],"start1":128,"start2":128,"length1":9,"length2":13}]],"length":141,"saved":false}
+{"ts":1373137657631,"patch":[[{"diffs":[[0,"BaseUser"],[1," "],[0,"\n"]],"start1":132,"start2":132,"length1":9,"length2":10}]],"length":142,"saved":false}
+{"ts":1373137665770,"patch":[[{"diffs":[[0,"aseUser "],[1,"= require"],[0,"\n"]],"start1":133,"start2":133,"length1":9,"length2":18}]],"length":151,"saved":false}
+{"ts":1373137666321,"patch":[[{"diffs":[[0," require"],[1,"('')"],[0,"\n"]],"start1":142,"start2":142,"length1":9,"length2":13}]],"length":155,"saved":false}
+{"ts":1373137667618,"patch":[[{"diffs":[[0,"equire('"],[1,"./"],[0,"')\n"]],"start1":144,"start2":144,"length1":11,"length2":13}]],"length":157,"saved":false}
+{"ts":1373137670293,"patch":[[{"diffs":[[0,"uire('./"],[1,"base"],[0,"')\n"]],"start1":146,"start2":146,"length1":11,"length2":15}]],"length":161,"saved":false}
+{"ts":1373137672691,"patch":[[{"diffs":[[0,"('./base"],[1,"Clien"],[0,"')\n"]],"start1":150,"start2":150,"length1":11,"length2":16}]],"length":166,"saved":false}
+{"ts":1373137673993,"patch":[[{"diffs":[[0,"('./base"],[-1,"Clien"],[0,"')\n"]],"start1":150,"start2":150,"length1":16,"length2":11}]],"length":161,"saved":false}
+{"ts":1373137675366,"patch":[[{"diffs":[[0,"('./base"],[1,"User"],[0,"')\n"]],"start1":150,"start2":150,"length1":11,"length2":15}]],"length":165,"saved":false}
+{"ts":1373137676372,"patch":[[{"diffs":[[0,"seUser')"],[1,";"],[0,"\n"]],"start1":156,"start2":156,"length1":9,"length2":10}]],"length":166,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1373138426174,"patch":[[{"diffs":[[0,"baseUser');\n"],[1,"exports.F"]],"start1":154,"start2":154,"length1":12,"length2":21}]],"length":175,"saved":false}
+{"ts":1373138428246,"patch":[[{"diffs":[[0,"xports.F"],[1,"ollows = "]],"start1":167,"start2":167,"length1":8,"length2":17}]],"length":184,"saved":false}
+{"ts":1373138430283,"patch":[[{"diffs":[[0,"llows = "],[1,"require('./')"]],"start1":176,"start2":176,"length1":8,"length2":21}]],"length":197,"saved":false}
+{"ts":1373138433961,"patch":[[{"diffs":[[0,"uire('./"],[1,"follows"],[0,"')"]],"start1":187,"start2":187,"length1":10,"length2":17}]],"length":204,"saved":false}
