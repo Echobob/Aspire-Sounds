@@ -1,14 +1,19 @@
 Aspire-Sounds
 =============
 
-Main site for Aspiresounds.com. A one-on-one/group teaching environment for electronic music. 
+    Main site for Aspiresounds.com. A one-on-one/group teaching environment for electronic music. 
 
 Purpose
+-------
+
     The purpose for this site is to give people the chance to sit down one-on-one or in small groups with music artist to learn how they make music.
     People will buy or bid for half-hour or hourly lessons. Artist will be able to choose when they wish to provide lessons.
     Clients rate the lessons afterwards to help promote better teachers. The money for the lessons goes to the artist after a small percentage is taken for the website. 
     
+
 Initial Landing Page
+--------------------
+
     Purpose
         Separate possible teachers from possible clients. Basic registration of users.
 
@@ -21,6 +26,7 @@ Initial Landing Page
         If user had chosen to stay logged in, send user to appropriate subpage on second visit, bypassing landing page.
         
 Artist Site
+--------------------
     Landing page
         Dashboard to overview events
         
@@ -29,7 +35,7 @@ Artist Site
         A miniature version will go on the homepage for the logged in artist and will also be displayed to clients when they click on an artist. 
     
     “Register as artist”
-	    Integrate OAuth services like Google auth, facebook, twitter etc.
+        Integrate OAuth services like Google auth, facebook, twitter etc.
 
     Facebook Integration
     
@@ -49,15 +55,13 @@ Artist Site
 	    Go active
             Menu item to allow artist to live immediately. Also, allows to activate scheduled sessions. 
 	
-	    Schedule
-        
+    	Schedule
     	Sponsor
-		
         View Profile 
-		
-	    Contact Info
+    	Contact Info
 		
 Client Site
+----------
     Register as Client
     Facebook integration
 	Register/login as client with facebook
@@ -89,6 +93,7 @@ Client Site
         One-on-one/Small group system
 
 Pricing
+------
     How long will it take (approx)
     	Landing sites - Client & Artist: 1-2 weeks
     	Subpages & Artist Schedule System - 2 weeks
@@ -103,14 +108,3 @@ Pricing
     Domain & SSL if the site is to process debit card details..
     	Godaddy SSL Cost: ~$99/year
         
-Estimate Cost
-$300
-Subpages & Artist schedule system:
-$200
-Payment system & SSL:
-$150 (SSL cost not included
-Live artist chat system:
-$600
-
-Current total estimate:
-$1150
