@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
     , schema = mongoose.Schema
     , ObjectId = schema.ObjectId
-    , mongooseAuth = require('mongoose-auth')
+    , everyauth = require('everyauth')
 	, utils = require('./utils');
 
 var userSchema = schema({
@@ -24,56 +24,31 @@ var userSchema = schema({
 	},
 	gravatar: {
 		type: String,
-		set: utils.toLowerCase,
+		set: utils.lowerCase,
 		default: ""
 	},
 	created: {
 		type: Date,
 		required: true,
-		default: Date().now
+		default: Date.now
 	},
 	deleted: {
 		type: Boolean,
 		default: false
-	}
+	},
 	telephone: {
 		type: String
 	},
-	dateOfBirth: {
-		type: Date
-	},
+	dateOfBirth: Date,
 	country: {
-		type: ObjectId
+		type: ObjectId,
 		ref: 'Country' // refers to Country collection
 	}
 });
-var User; // user model we define later..
 
-userSchema.plugin(mongooseAuth, {
-	everymodule: { // make User model available to all authentication methods
-		everyauth: {
-			User: function() {
-				return User;
-			}
-		}
-	},
-	password: {
-		loginWith: 'email', // users login with email
-		
-		everyauth: {
-			// define paths here
-			getLoginPath: '/login',
-			postLoginPath: '/login',
-			loginView: 'login.jade',
-			getRegisterPath: '/register',
-			postRegisterPath: '/register',
-			registerView: 'register.jade',
-			loginSuccessRedirect: '/',
-			registerSuccessRedirect: '/',
-			
-			//authenticate: function(login, password) {
-				// Custom authentication method here...
-			//}
-		}
-	}
-})
+
+
+
+
+
+var User = mongoose.model('User', userSchema); // user model we define later..

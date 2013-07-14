@@ -1,0 +1,77 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+.landingWrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.welcome {
+	position: absolute;
+	top: 100px;
+	left: 0; right: 0;
+	margin: 0 auto;
+	width: auto;
+	text-align: center;
+}
+.welcome h2 {
+	color: #FFF;
+}
+
+.artist, .client {
+	width: 50%;
+	height: 100%;
+	min-height: 600px;
+	position: relative;
+	float: left;
+	background: #000;
+	outline: 1px solid #000;
+}
+
+.artist {
+	background: url('/img/artist.jpg') no-repeat top center;
+	background-size: cover;
+	box-shadow: inset -2px 0 3px #000;
+	-webkit-box-shadow: inset -2px 0 3px #000;
+	-moz-box-shadow: inset -2px 0 5px #333;
+}
+
+.client {
+	background: url('/img/client.jpg') no-repeat top center;
+	background-size: cover;
+	box-shadow: inset 2px 0 3px #000;
+	-webkit-box-shadow: inset 2px 0 3px #000;
+	-moz-box-shadow: inset 2px 0 3px #000;
+}
+
+.artist button, .client button {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: auto;
+	width: 300px;
+	height: 50px;
+}
+
+.footer {
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #000;
+	box-shadow: 0 -3px 3px #000;
+}
+.footer .footer-links {
+	margin-top: 10px;
+}
+.footer .footer-links a {
+	color: #CCC;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.footer .footer-links a:hover {
+	text-decoration: overline;
+}

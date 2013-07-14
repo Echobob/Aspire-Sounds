@@ -1,12 +1,15 @@
 var express = require('express')
 	, http = require('http')
 	, path = require('path')
-	, mongoose = require('mongoose');
+	, mongoose = require('mongoose')
+	, everyauth = require('everyauth')
+	, models = require('./models')
+	, config = require('./config');
 
 var app = express();
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', config.port);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.set('view cache', true);
@@ -31,7 +34,12 @@ if ('development' == app.get('env')) {
 }
 
 app.get ('/', function(req, res) {
-    res.render('index', { title: "Test page" });
+    res.render('landingpage/index', { layout: 'landingpage/layout',
+		title: "Landing Page | Aspire Sounds"
+	});
+});
+app.get ('/client', function(req, res) {
+	
 });
 
 http.createServer(app).listen(app.get('port'), function(){

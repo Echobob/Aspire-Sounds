@@ -1,8 +1,10 @@
 // Site configuration here...
-exports.hostname = function() {
-	if (process.env.NODE_ENV == "production") {
-		return "aspiresounds.com";
-	} else {
-		return "localhost";
-	}
-}();
+exports.port = process.env.PORT || 3000;
+
+if (process.env.NODE_ENV == "production") {
+	exports.mongoose = "mongodb://aspiresounds:somepassword@127.0.0.1/aspiresounds";
+	exports.hostname = "aspiresounds.com";
+} else {
+	exports.mongoose = "mongodb://127.0.0.1/aspiresounds";
+	exports.hostname = "127.0.0.1";
+}

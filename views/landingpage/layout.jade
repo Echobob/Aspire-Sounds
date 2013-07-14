@@ -1,0 +1,46 @@
+!!!5
+html
+	head
+		title Landing Page | Aspire Sounds
+		block css
+			link(rel="stylesheet", href="/css/bootstrap.css")
+			link(rel="stylesheet", href="/css/landingpage.css")
+	body
+		.navbar.navbar-fixed-top.navbar-inverse
+			.navbar-inner
+				.container
+					button.btn.btn-navbar(type="button", data-toggle="collapse", data-target=".nav-collapse")
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+			
+					a.brand(href="/") Aspire Sounds
+			
+					.nav-collapse.collapse
+						ul.nav
+							li
+								a(href="/artist") Artist
+							li
+								a(href="/client") Client
+					.pull-right
+						ul.nav
+							li
+								a Login
+		
+		.artist
+			button.btn.btn-large.btn-primary#artist(href="/artist") Artist
+		.client
+			button.btn.btn-large.btn-primary#client(href="/client") Client
+		.welcome
+			h2 Welcome to Aspire Sounds
+		.footer.text-center
+			p.muted.footer-links
+				a(href="/about") About
+				a(href="/terms") Terms and Conditions
+				a(href="/press") Press
+				a(href="/contact") Contact us
+			p.muted © 2013 AspireSounds
+		block js
+			script(src="/js/jquery.min.js")
+			script(src="/js/bootstrap.js")
+			script(src="/js/landingpage.js")

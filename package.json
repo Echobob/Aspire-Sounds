@@ -13,7 +13,6 @@
     "async": "*",
     "validator": "*",
     "connect-mongo": "*",
-    "mongoose-auth": "*",
 	"everyauth": "*"
   }
 }
